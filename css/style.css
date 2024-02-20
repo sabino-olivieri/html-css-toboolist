@@ -7,12 +7,21 @@
 /* COMMON */
 
 .bg-color {
-    background-color: #EDF2F7;
+    background-color: #EDF2F6;
     box-shadow: 5px 5px 20px #80808054
 }
 
 .container{
     margin: 0 auto;
+    text-align: center;
+}
+
+.pad10{
+    padding: 20px;
+}
+
+.divider{
+    border: 2px solid white;
 }
 
 /* HEADER */
@@ -20,3 +29,30 @@
     width: 245px;
     margin: 0 auto;
 }
+
+/* MAIN */
+.box-main{
+    width: 80%;
+    height: 1000px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+/* TASK */
+
+.task{
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.btn{
+    height: 35px;
+    width: 10%;
+    background-color: #14AAF5;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
