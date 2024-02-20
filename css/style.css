@@ -44,7 +44,6 @@ ul{
 h1{
     font-size: 15px;
     color: #434851;
-    margin: 10px 0px;
 }
 
 .category{
@@ -56,18 +55,49 @@ h1{
 
 }
 
+.editorial{
+    background-color: #14AAF5;
+}
+
+.q1-goals{
+    background-color: #AB5DE6;
+}
+
+.recruiting{
+    background-color: #2CC6AB;
+}
+
+.mobile{
+    background-color: #FF9B00;
+}
+
+.website{
+    background-color: #EC4A9D;
+}
+
+.sales{
+    background-color: #A3D116;
+}
+
 .check{
     border: 2px solid #39CAB0;
     text-align: center;
     border-radius: 50%;
     color: #39CAB0;
     font-size: 10px;
-    display: inline-block;
     width: 20px;
     height: 20px;
 }
 
-
+.cross{
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 50%;
+    color: red;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+}
 
 /* HEADER */
 .box-logo{
@@ -78,7 +108,6 @@ h1{
 /* MAIN */
 .box-main{
     width: 80%;
-    height: 1000px;
     margin-top: 50px;
     border-radius: 10px;
 }
@@ -98,7 +127,7 @@ h1{
 
 .btn{
     height: 35px;
-    width: 10%;
+    padding: 5px;
     background-color: #14AAF5;
     color: white;
     border: 0;
@@ -112,14 +141,10 @@ h1{
     background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 20px #80808054;
-    /* line-height: 45px; */
+    margin: 15px 0px;
 }
 
-.editorial{
-    background-color: #14AAF5;
-}
-
-.text-task, .category, .check{
+.text-task, .category, .check, .cross{
     display: inline-block;
     vertical-align: middle;
 }
@@ -127,4 +152,5 @@ h1{
 .text-task{
     line-height: 50px; 
     color: #434B56;
+    padding-left: 10px;
 }
