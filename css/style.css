@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+.bg-color {
+    background-color: #EDF2F7;
+    box-shadow: 5px 5px 20px #80808054
+}
+
+.container{
+    margin: 0 auto;
+}
+
+/* HEADER */
+.box-logo{
+    width: 245px;
+    margin: 0 auto;
+}
